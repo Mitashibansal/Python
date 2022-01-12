@@ -122,4 +122,11 @@ def pattern(n):
     print("\r") 
 pattern(3)
 
+def pattern(y):
+  n=chr(y)
+  for i in range(y,0,-1):
+    for j in range(1,i+1):
+      print(j, end=" ")
+    print("\r")
+pattern(6)
   

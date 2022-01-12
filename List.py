@@ -18,3 +18,16 @@ def multiply(List) :
         ans = ans * Y
     return ans
 print(multiply(b))
+#python class to find two elements from a list that have sum equal to zero 
+class math:
+  def findpair(nums):
+    for i in range(len(nums)-1):
+      for j in range(i+1,len(nums)):
+        if nums[i]+nums[j]==0:
+          print('pair found',nums[i],nums[j])
+        """"else:
+          print("pair not found")"""
+
+  nums=[-4,9,0,0,4]
+  findpair(nums)
+
